@@ -7,10 +7,12 @@ login_courier_url = service_url + '/api/v1/courier/login'
 delete_courier_url = service_url + '/api/v1/courier/'
 
 # Локаторы для функциональности курьера
-CREATE_COURIER_DUPLICATION_ERROR_MESSAGE = 'Этот логин уже используется'
+CREATE_COURIER_DUPLICATION_ERROR_MESSAGE = 'Этот логин уже используется. Попробуйте другой.'
 CREATE_COURIER_EMPTY_FIELD_ERROR_MESSAGE = 'Недостаточно данных для создания учетной записи'
 LOGIN_WITH_INCORRECT_DATA_ERROR_MESSAGE = 'Учетная запись не найдена'
 LOGIN_WITH_EMPTY_FIELD_ERROR_MESSAGE = 'Недостаточно данных для входа'
+DELETE_WITH_EMPTY_ID_ERROR_MESSAGE = 'Недостаточно данных для удаления курьера'
+DELETE_WITH_UNEXISTING_ID_ERROR_MESSAGE = 'Курьера с таким id нет.'
 
 # URLы API для функциональности заказов
 create_order_url = service_url + '/api/v1/orders'
